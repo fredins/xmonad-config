@@ -1,0 +1,18 @@
+# Nix and Cabal build outputs
+/result
+/result-*
+/dist/
+/dist-newstyle/
+/.direnv/
+/cabal.project.local
+
+# GHC build and type-checking outputs
+*.hi
+*.hie
+*.o
+*.dyn_hi
+*.dyn_o
+*.p_hi
+*.p_o
+*.hie-boot
+*.hi-boot
